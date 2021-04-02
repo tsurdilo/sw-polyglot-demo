@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Java Service",
+    "description": "Java Service",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8082"
+    }
+  ],
+  "paths": {
+    "/greet": {
+      "post": {
+        "operationId": "java",
+        "responses": {
+          "default": {
+            "description": "java service response",
+            "content": {
+              "application/json;charset=utf-8": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

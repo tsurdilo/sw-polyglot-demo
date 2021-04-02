@@ -1,0 +1,41 @@
+{
+    "id": "simpleworkflow",
+    "version": "1.0",
+    "name": "Our Simple Orchestration",
+    "start": "StartOrchestration",
+    "states": [
+        {
+            "name": "StartOrchestration",
+            "type": "operation",
+            "actions": [
+                {
+                    "name": "Invoke Go",
+                    "functionRef": "Go Function"
+                },
+                {
+                    "name": "Invoke Node",
+                    "functionRef": "Node Function"
+                },
+                {
+                    "name": "Invoke Java",
+                    "functionRef": "Java Function"
+                }
+            ],
+            "end": true
+        }
+    ],
+    "functions":[
+        {
+            "name": "Go Function",
+            "operation": "goservice.json#go"
+        },
+        {
+            "name": "Node Function",
+            "operation": "nodeservice.json#node"
+        },
+        {
+            "name": "Java Function",
+            "operation": "javaservice.json#java"
+        }
+    ]
+}

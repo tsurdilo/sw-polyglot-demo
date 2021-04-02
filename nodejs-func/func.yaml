@@ -1,0 +1,10 @@
+name: nodejs-func
+namespace: ""
+runtime: node
+image: ""
+imageDigest: ""
+trigger: http
+builder: quay.io/boson/faas-nodejs-builder
+builderMap:
+  default: quay.io/boson/faas-nodejs-builder
+envVars: {}

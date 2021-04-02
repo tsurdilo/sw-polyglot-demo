@@ -1,0 +1,10 @@
+name: go-func
+namespace: ""
+runtime: go
+image: ""
+imageDigest: ""
+trigger: http
+builder: quay.io/boson/faas-go-builder
+builderMap:
+  default: quay.io/boson/faas-go-builder
+envVars: {}

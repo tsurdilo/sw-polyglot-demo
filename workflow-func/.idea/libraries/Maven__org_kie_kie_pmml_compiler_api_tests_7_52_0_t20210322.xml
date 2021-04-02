@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.kie:kie-pmml-compiler-api:tests:7.52.0.t20210322">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/kie-pmml-compiler-api/7.52.0.t20210322/kie-pmml-compiler-api-7.52.0.t20210322-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/kie-pmml-compiler-api/7.52.0.t20210322/kie-pmml-compiler-api-7.52.0.t20210322-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/kie/kie-pmml-compiler-api/7.52.0.t20210322/kie-pmml-compiler-api-7.52.0.t20210322-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

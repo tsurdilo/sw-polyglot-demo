@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Go Service",
+    "description": "Go Service",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8081"
+    }
+  ],
+  "paths": {
+    "/": {
+      "post": {
+        "operationId": "go",
+        "responses": {
+          "default": {
+            "description": "go service response",
+            "content": {
+              "application/json;charset=utf-8": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
