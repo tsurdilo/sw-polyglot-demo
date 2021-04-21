@@ -2,7 +2,7 @@ Start node func:
 ``` 
 cd nodejs-func
 npm run local
-curl -X POST localhost:8080
+curl -X GET localhost:8080
 ```
 
 Start go func: 
